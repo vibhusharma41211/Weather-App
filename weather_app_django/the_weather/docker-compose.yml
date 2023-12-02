@@ -4,7 +4,7 @@ services :
     build :
       context : https://github.com/vibhusharma41211/Weather-App.git
       args :
-        GITHUB_PAT : your_personal_access_token
+        GITHUB_PAT : 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
     ports :
       - "8000:8000"
 
