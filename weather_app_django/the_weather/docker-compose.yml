@@ -1,7 +1,8 @@
 version : "3"
 services :
   web :
-    build : .
+    build :
+      context : https://github.com/vibhusharma41211/Weather-App.git
     ports :
       - "8000:8000"
 
